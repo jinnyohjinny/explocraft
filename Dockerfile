@@ -8,4 +8,6 @@ RUN npm install
 
 COPY . .
 
+ENV EXPLOIT_SERVER_KEY=explocraft
+
 CMD [ "npm", "start" ]
